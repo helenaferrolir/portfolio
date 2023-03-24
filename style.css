@@ -207,9 +207,9 @@ a:hover {
     border-radius: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: #60E1E0;
-    background-image: url('./img/projeto.png');
+    background-image: url('./img/foto.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -220,13 +220,14 @@ a:hover {
 }
 
 .card-text {
-    width: 100%;
+    width: 60%;
     letter-spacing: 1px;
     color: rgb(109, 109, 109);
 }
 
 .card-wrapper {
     text-align: center;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -247,16 +248,15 @@ a:hover {
 }
 
 .card-wrapper h2 {
-    font-size: 30px;
+    font-size: 20px;
     text-transform: uppercase;
-    letter-spacing: 4px;
+
     transition: 0.5s ease-in-out;
 }
 
 .card-wrapper p {
-    font-size: 0;
-    visibility: visible;
-    opacity: 0;
+    font-size: 20px;
+
     font-weight: bold;
     text-transform: uppercase;
     transition: 0.5s ease-in-out;
